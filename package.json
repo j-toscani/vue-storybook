@@ -5,8 +5,8 @@
     "dev": "vite",
     "build": "vite build",
     "lint:script": "eslint --ext .ts,vue --ignore-path .gitignore .",
-    "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook"
+    "storybook": "start-storybook -p 6006 -s public/",
+    "build-storybook": "build-storybook -s public/"
   },
   "dependencies": {
     "vue": "^3.0.4"

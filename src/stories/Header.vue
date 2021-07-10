@@ -20,7 +20,7 @@
   </header>
 </template>
 
-<script>
+<script lang="ts">
 import './header.css';
 import MyButton from './Button.vue';
 
@@ -32,7 +32,7 @@ export default {
   props: {
     user: {
       type: Object,
-      required: true,
+      default: () => ({ username: 'Heinz' }),
     },
   },
 
