@@ -1,0 +1,15 @@
+{
+  "fontName": "Roboto",
+  "fontFamily": "sans-serif",
+  "styles": [
+    {
+      "weight": "medium",
+      "url": "Roboto-Medium.ttf"
+    },
+    {
+      "weight": "bold",
+      "style": "italic",
+      "url": "Roboto-BlackItalic.ttf"
+    }
+  ]
+}
