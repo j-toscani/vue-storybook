@@ -1,0 +1,14 @@
+@import './fonts/roboto/roboto.css';
+
+:root {
+  font-family: Robot, sans-serif;
+  font-size: clamp(14px, 2.5vw, 20px);
+  color: rgba(0, 0, 0, 0.85);
+
+  --unit: 0.5rem;
+  --color-100: rgba(0, 0, 0, 1);
+  --color-200: rgba(50, 50, 50, 1);
+  --color-300: rgba(100, 100, 100, 1);
+  --color-400: rgba(150, 150, 150, 1);
+  --color-500: rgba(200, 200, 200, 1);
+}
