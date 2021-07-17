@@ -21,7 +21,6 @@
 </template>
 
 <script lang="ts">
-import './header.css';
 import MyButton from './Button.vue';
 
 export default {

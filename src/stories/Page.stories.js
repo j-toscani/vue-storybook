@@ -1,5 +1,5 @@
 import MyPage from './Page.vue';
-import * as HeaderStories from './Header.stories';
+import * as HeaderStories from './Header.stories.js';
 
 export default {
   title: 'Example/Page',

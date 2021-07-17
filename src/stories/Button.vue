@@ -3,7 +3,6 @@
 </template>
 
 <script>
-import './button.css';
 import { reactive, computed } from 'vue';
 
 export default {
@@ -23,9 +22,11 @@ export default {
       validator: function (value) {
         return ['small', 'medium', 'large'].indexOf(value) !== -1;
       },
+      default: () => 'meduim',
     },
     backgroundColor: {
       type: String,
+      default: () => 'red',
     },
   },
 
