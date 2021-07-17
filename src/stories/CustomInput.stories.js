@@ -11,7 +11,6 @@ export default {
         options: ['text', 'checkbox', 'radio', 'number', 'tel', 'email', 'password', 'date', 'color', 'time', 'url'],
       },
     },
-    // onClick: {},
   },
 };
 
@@ -21,13 +20,21 @@ const Template = (args) => ({
   setup() {
     return { args };
   },
-  template: '<my-input v-bind="args" />',
+  template: '<my-input v-bind="args"/>',
 });
 
 export const Primary = Template.bind({});
 Primary.args = {
   type: 'text',
   label: 'A Label',
+  value: 'me',
+};
+export const Required = Template.bind({});
+Required.args = {
+  type: 'text',
+  label: 'A Label',
+  value: 'me',
+  required: true,
 };
 
 // export const Secondary = Template.bind({});
